@@ -1,5 +1,9 @@
-#Crie um programa que leia quanto uma pessoa tem na carteira e  mostre quantos dólares ela pode comprar.
-#Considerar valor do dólar a R$3.27
+#Faça um prorama que leia a largura e a altura de uma parede em metros.
+#Calcule a sua área e a quantidade de tinta necessaria para pinta-la.
+#Sabendo que cada litro de tinta pinta uma área de 2m².
 
-v = float(input('Quantos reais você tem? '))
-print('Você possui {} dólares.'.format(v * 0.30))
+l = float(input('Qual a largura da parede em metros? '))
+a = float(input('Qual a altura da parede em metros? '))
+ca = l * a
+qtn = ca / 2
+print('A área da parede é de {}m² e será necessário {} litros de tinta para pinta-la.'.format(ca, qtn))

@@ -1,6 +1,11 @@
-#Crei um programa que leia dois valores e mostre a soma entre eles.
+#Crie um programa que leia algo descrito e mostre todas as informações sobre o item inserido.
 
-n1 = int(input('Digite um valor: '))
-n2 = int(input('Digite outro valor: '))
-r = n1 + n2
-print('A soma entre {} e {} resulta em: {}'.format(n1, n2, r))
+n = input('Digite algo: ')
+print('O tipo primitivo deste valor é ', type(n))
+print('Só tem espaços? ', n.isspace())
+print('É um número? ', n.isnumeric())
+print('É alfabético? ', n.isalpha())
+print('É alfanumérico? ', n.isalnum())
+print('Está em maiúsculas? ', n.isupper())
+print('Está em minúsculas? ', n.islower())
+print('Está capitalizada? ', n.istitle())

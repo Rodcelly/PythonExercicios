@@ -1,7 +1,9 @@
-#Faça um programa que leia um número inteiro e mostre o seu secessor e seu antecessor.
+#Crie um algoritmo que leia um número e mostre o seu dobro, triplo e raiz quadrada.
 
-n = int(input('Digite um número: '))
-s = n - 1
-a = n + 1
-print("O seu antecessor é {}, o seu sucessor é {}, o seu número é {}.".format(s, a, n), end=' Em ordem, antecessor, número e sucessor: ')
-print(s, n, a)
+n = float(input('Qual número você deseja analisar? '))
+d = n * 2
+t = n * 3
+r = n ** (1/2)
+print('O dobro é {}. \nO triplo é {}. \nRaiz é {:.2f}.'.format(d, t, r))
+print('De forma respectiva, em ordem, número, dobro, triplo e raiz: ', end='')
+print(n, d, t, r)

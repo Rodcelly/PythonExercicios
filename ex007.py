@@ -1,9 +1,7 @@
-#Crie um algoritmo que leia um número e mostre o seu dobro, triplo e raiz quadrada.
+#Desenvolva um programa que leia as duas notas de um aluno, calcule e mostre a sua média.
 
-n = float(input('Qual número você deseja analisar? '))
-d = n * 2
-t = n * 3
-r = n ** 2
-print('O dobro é {}, o triplo é {} e a raiz é {}'.format(d, t, r))
-print('De forma respectiva, em ordem, número, dobro, triplo e raiz: ', end='')
-print(n, d, t, r)
+n1 = float(input('Primeira nota: '))
+n2 = float(input('Segunda nota: '))
+m = (n1 + n2) / 2
+print('A sua média entre {:.1f} e {:.1f} é {:.1f}'.format(n1, n2, m))
+

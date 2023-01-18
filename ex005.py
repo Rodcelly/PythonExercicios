@@ -1,11 +1,7 @@
-#Crie um programa que leia algo descrito e mostre todas as informações sobre o item inserido.
+#Faça um programa que leia um número inteiro e mostre o seu secessor e seu antecessor.
 
-n = input('Digite algo: ')
-print('O tipo primitivo deste valor é ', type(n))
-print('Só tem espaços? ', n.isspace())
-print('É um número? ', n.isnumeric())
-print('É alfabético? ', n.isalpha())
-print('É alfanumérico? ', n.isalnum())
-print('Está em maiúsculas? ', n.isupper())
-print('Está em minúsculas? ', n.islower())
-print('Está capitalizada? ', n.istitle())
+n = int(input('Digite um número: '))
+s = n - 1
+a = n + 1
+print("O seu antecessor é {}, o seu sucessor é {}, o seu número é {}.".format(s, a, n), end=' Em ordem antecessor, sucessor e número digitado: ')
+print(s, n, a)

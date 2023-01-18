@@ -1,13 +1,5 @@
-#Faça um programa que leia um número inteiro qualquer e mostre a sua tabuada.
+#Crie um programa que leia quanto uma pessoa tem na carteira e  mostre quantos dólares ela pode comprar.
+#Considerar valor do dólar a R$3.27
 
-n = int(input('Qual valor você deseja ver a tabuada? '))
-print('{} x 1 = {}'.format(n, n))
-print('{} x 2 = {}'.format(n, n * 2))
-print('{} x 3 = {}'.format(n, n * 3))
-print('{} x 4 = {}'.format(n, n * 4))
-print('{} x 5 = {}'.format(n, n * 5))
-print('{} x 6 = {}'.format(n, n * 6))
-print('{} x 7 = {}'.format(n, n * 7))
-print('{} x 8 = {}'.format(n, n * 8))
-print('{} x 9 = {}'.format(n, n * 9))
-print('{} x 10 = {}'.format(n, n * 10))
+v = float(input('Quantos reais você tem? R$ '))
+print('Você possui US${:.2f} dólares.'.format(v / 3.27))

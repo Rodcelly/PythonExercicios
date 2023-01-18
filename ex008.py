@@ -1,6 +1,6 @@
-#Desenvolva um programa que leia as duas notas de um aluno, calcule e mostre a sua média.
+#Escreva um programa que leia um valor em metros e o exiba convertido em centímetros e milímetros.
 
-n1 = float(input('Primeira nota: '))
-n2 = float(input('Segunda nota: '))
-m = (n1 + n2) / 2
-print('A sua média é: {}'.format(m))
+m = float(input('Qual valor em metros você deseja verificar? '))
+c = m * 100
+mm = m * 1000
+print('{} metros equivalem a {:.0f} centímetros e a {:.0f} milímetros.'.format(m, c, mm))
